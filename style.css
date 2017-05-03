@@ -1,0 +1,67 @@
+
+html, body{
+  position: relative;
+  height: 100%;
+ }
+
+body{
+  text-align: center;
+  background: #292929;
+  color: #f7f7f7;
+  font-family: 'Roboto';
+}
+
+h1, h4{
+  margin: 5px;
+}
+
+h1{
+  font-size: 5em;
+}
+
+h4{
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+div{
+  margin: 0;
+}
+
+#grid{
+  position: relative;
+  margin: 0 auto;
+}
+
+.row{
+  height: 5px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.cell{
+  float: left;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.alive{
+  background: #794696;
+}
+
+.btn{
+  padding: 5px 10px;
+  display: inline-block;
+  background: #f7f7f7;
+  color: #000;
+  cursor: pointer;
+  margin: 20px auto 40px;
+  transition: all .3s ease-in;
+}
+
+.btn:hover{
+  background: #794696;
+  color: #f7f7f7;
+}
